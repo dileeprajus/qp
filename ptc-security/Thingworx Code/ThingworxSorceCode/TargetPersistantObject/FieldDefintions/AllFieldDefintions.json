@@ -1,0 +1,11 @@
+//DataTransactionTable is the dataShape to store the cdee transactional data
+
+{
+  "created_at": "DATETIME",
+  "updated_at":"DATETIME",
+  "target_config_name":"ThingName",
+  "target_group_name": "ThingTemplateName",
+  "raw_data":"",
+  "converted_data":{},
+  "id":"123"
+}

@@ -1,0 +1,14 @@
+// PersistenceDataProvider is the new Persistence Provider
+{
+  "GeneralInformation Tab": {
+    "Name": "PersistenceDataProvider",
+    "Tags":"Applications:IE",
+    "Persistence Provider Package":"PostgresPersistenceProviderPackage"
+  },
+  "ConfigurationTab":{
+    "JDBC URL":"jdbc:postgresql://hostname:port/database",
+    "Username":"Database Username",
+    "Password":"Password for above Username",
+    "Driver Class":"your postgresql driver class"
+  }
+}

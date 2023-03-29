@@ -1,0 +1,11 @@
+//DataTransactionTable is the dataShape to store the cdee transactional data
+
+{
+  "transactionID": "",
+  "ID":"",
+  "configName": "",
+  "groupName":"",
+  "groupType": "",
+  "success":0,
+  "failure":0
+}

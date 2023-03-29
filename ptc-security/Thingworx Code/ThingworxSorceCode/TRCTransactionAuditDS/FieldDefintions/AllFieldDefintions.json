@@ -1,0 +1,18 @@
+{
+  "tSeq":"string",
+  "transactionId": "string",
+  "sourceConfig":"string",
+  "targetConfig": "string",
+  "mappingConfig":"string",
+  "flowDataSourceType":"string",
+  "sourceTimeStamp":"datetime",
+  "mappingTimeStamp":"datetime",
+  "targetTimeStamp":"datetime",
+  "parentTSeq":"string",
+  "primaryKey":"string",
+  "status":"string",
+  "sourceData":"json",
+  "targetData":"json",
+  "mappingData":"json",
+  "groupType":"string"
+}

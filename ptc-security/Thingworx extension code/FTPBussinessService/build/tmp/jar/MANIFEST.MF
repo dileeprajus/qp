@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_101 (Oracle Corporation 25.101-b13)
+Built-By: Eclipse Plugin for ThingWorx Extension Development 7.2.0.201
+ 608021836
+Build-Date: Tue Mar 07 20:03:33 IST 2023
+
+Name: FTPBussinessService
+Package-Title: FTPBussinessService
+Package-Version: 1.0.0
+Package-Vendor: 
+

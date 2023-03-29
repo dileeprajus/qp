@@ -1,0 +1,15 @@
+//DataTransactionTable is the dataShape to store the cdee transactional data
+
+{
+  "mapping_group_name": "ThingTemplateName",
+  "mapping_config_name":"ThingName",
+  "source_group_name": "ThingTemplateName",
+  "source_config_name":"ThingName",
+  "target_group_name": "ThingTemplateName",
+  "target_config_name":"ThingName",
+  "target_persistant_object_id":"123Long",
+  "id":"",
+  "primary_key_at_dataprovider":"String",
+  "created_at_dataprovider":"DATETIME",
+  "updated_at_dataprovider":"DATETIME"
+}

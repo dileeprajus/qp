@@ -1,0 +1,12 @@
+//DataTransactionTable is the dataShape to store the cdee transactional data
+
+{
+  "configName": "ThingName",
+  "primaryKey":"String",
+  "updatedAt":"DateTime",
+  "errorORInfo":{},
+  "configType":"",
+  "templateName":"ThingTemplateName",
+  "tag":"TAGS",
+  "timeStamp":"DATETIME"
+}

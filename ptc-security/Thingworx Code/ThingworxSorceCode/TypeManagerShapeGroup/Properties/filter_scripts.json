@@ -1,0 +1,112 @@
+/*TODO:*/
+{
+	"scripts": [{
+		"output": "array",
+		"input": "string",
+		"name": "StringToArray",
+		"description": "This value changes from String to array by taking delimiter",
+		"script": ["return input.split(\"-\");"]
+	}, {
+		"output": "integer",
+		"input": "string",
+		"name": "StringToInteger",
+		"description": "This value changes from String to Integer by taking delimiter",
+		"script": ["var x=input;", "var output = parseInt(x);", "return output;"]
+	}, {
+		"output": "float",
+		"input": "string",
+		"name": "StringToFloat",
+		"description": "This value changes from String to Float",
+		"script": ["var x= input;", "var output = parseFloat(x);", "return output;"]
+	}, {
+		"output": "string",
+		"input": "integer",
+		"name": "IntegerToString",
+		"description": "This value changes from Integer to String",
+		"script": ["var x=input;", "var output = JSON.stringify(x);", "return output;"]
+	}, {
+		"output": "string",
+		"input": "array",
+		"name": "ArrayToString",
+		"description": "This value changes from an Array to String",
+		"script": ["return input.toString();"]
+	}, {
+		"output": "string",
+		"input": "",
+		"name": "DateToString",
+		"description": "This value changes from Date to String",
+		"script": ["var d = new Date(input);", "var output = d.toDateString();", "return output;"]
+	}, {
+		"output": "integer",
+		"input": "float",
+		"name": "FloatToInteger",
+		"description": "This value changes from Float to Integer",
+		"script": ["return Math.round(input);"]
+	}, {
+		"output": "string",
+		"input": "float",
+		"name": "FloatToString",
+		"description": "This value changes from Float to String",
+		"script": ["return input.toString();"]
+	}, {
+		"output": "string",
+		"input": "string",
+		"name": "StringToString",
+		"description": "This value changes from string to string",
+		"script": ["return input.toString();"]
+	}, {
+		"output": "float",
+		"input": "float",
+		"name": "FloatToFloat",
+		"description": "This value changes from float to float",
+		"script": ["var output = parseFloat(input);", "return output;"]
+	}, {
+		"output": "float",
+		"input": "integer",
+		"name": "IntegerToFloat",
+		"description": "This value changes from Integer to Float",
+		"script": ["var output = parseFloat(input);", "return output;"]
+	}, {
+		"output": "boolean",
+		"input": "string",
+		"name": "StringToBoolean",
+		"description": "This value changes from String to Boolean",
+		"script": ["var bool;", "    if (input.match(/^(true|1|yes)$/i) !== null) {", "        bool = true;", "    } else if (input.match(/^(false|0|no)*$/i) !== null) {", "        bool = false;", "    } else {", "        bool = null;", "    }", "    return bool;"]
+	}, {
+		"output": "integer",
+		"input": "integer",
+		"name": "IntegerToInteger",
+		"description": "This value changes from Integer to Integer",
+		"script": ["var output = parseInt(input);", "return output;"]
+	}, {
+		"output": "string",
+		"input": "time",
+		"name": "TimeToString",
+		"description": "This value changes from Time to String",
+		"script": ["var x = new Date();", "var output = x.toTimeString();", "return output;"]
+	}, {
+		"output": "boolean",
+		"input": "integer",
+		"name": "IntegerToBoolean",
+		"description": "This value changes from Integer to Boolean ",
+		"script": ["var bool;", "    if (input.match(/[1-9]/i) !== null) {", "        bool = true;", "    } else if (input.match(/^(0)*$/i) !== null) {", "        bool = false;", "    } else {", "        bool = null;", "    }", "    return bool;"]
+	}, {
+		"output": "array",
+		"input": "array",
+		"name": "ArrayToArray",
+		"description": "This value changes from Array to Array",
+		"script": ["return input.split(\",\");", ""]
+	}, {
+		"output": "",
+		"input": "string",
+		"name": "StringToDate",
+		"description": "This value changes from String to Date",
+		"script": ["var x = input;", "var output = new Date(x);", "return output; ", ""]
+	}, {
+		"output": "string",
+		"input": "string",
+		"name": "ValueFromAPI",
+		"description": "This will call external API to get the value",
+		"script": ["var params = {url: \"<Paste url>\",headers: {},method: \"\",payload: {},query_params: {},auth_type: \"BasicAuth\",basic_auth_details: {\"username\":\"\",\"password\":\"\"},oauth_details: {\"auth_url\": \"\",\"access_token_url\": \"\",\"client_id\": \"\",\"client_secret\": \"\",\"scope\": \"\",\"grant_type\": \"password\",\"username\": \"\",\"password\": \"\"}};", "var response = me.HandleRestAPI(params);", "var output = response;", "return output;"]
+	}]
+}

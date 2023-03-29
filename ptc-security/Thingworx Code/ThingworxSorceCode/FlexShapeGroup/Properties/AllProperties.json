@@ -1,0 +1,13 @@
+{
+	"name":"",
+	"description":"",
+	"FlexConnectionConfiguration":{},
+	"hostname":"",
+	"hosturl":"",
+	"tempCount":"NUMBER",
+	"midpoint":"",
+	"username":"",
+	"password":"PASSWORD",
+	"FlexConfig":{},
+	"enableFlexTrigger":true
+}

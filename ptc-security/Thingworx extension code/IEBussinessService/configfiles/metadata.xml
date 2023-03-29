@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage dependsOn="" description="" minimumThingWorxVersion="8.0.0" name="IEBussinessService" packageVersion="1.6.53" vendor="">
+            <JarResources>
+                <FileResource description="" file="IEBussinessService.jar" type="JAR"/>
+             
+                <FileResource description="" file="jolt-core-0.0.24.jar" type="JAR"/>
+                <FileResource description="" file="json-simple-1.1.jar" type="JAR"/>
+                <FileResource description="" file="jaxp-api-1.4.2.jar" type="JAR"/>
+                <FileResource description="" file="json-utils-0.0.24.jar" type="JAR"/>
+                <FileResource description="" file="soa-model-core-1.5.0.jar" type="JAR"/>
+                <!--     <FileResource description="" file="stax-api-1.0-2.jar" type="JAR"/> -->
+                <FileResource description="" file="staxon-1.3.jar" type="JAR"/>
+                <FileResource description="" file="jsons2xsd-1.0.jar" type="JAR"/>
+                <!--  <FileResource description="" file="gson-2.2.2.jar" type="JAR"/> -->
+                <!--<FileResource description="" file="rt.jar" type="JAR"/>-->
+                <!-- <FileResource description="" file="json-20160810.jar" type="JAR"/> -->
+                <FileResource description="" file="org.everit.json.schema-1.5.1.jar" type="JAR"/>
+                <FileResource description="" file="xsd2json.jar" type="JAR"/>
+                <FileResource description="" file="stax-api-1.0-2.jar" type="JAR"/>
+                <!--jars added for 9.1 thingworx -->
+                <FileResource description="" file="activation-1.1.jar" type="JAR"/>
+                <FileResource description="" file="javax.xml.soap-api-1.4.0.jar" type="JAR"/>
+                <FileResource description="" file="saaj-impl-1.5.1.jar" type="JAR"/>
+                <FileResource description="" file="groovy-all-2.4.4.jar" type="JAR"/>
+            </JarResources>
+        </ExtensionPackage>
+    </ExtensionPackages>
+    <ThingShapes>
+        <ThingShape aspect.isEditableExtensionObject="false" className="com.cdee.IEBussinessRulesShape" description="" name="IEBussinessRulesShape"/>
+    </ThingShapes>
+</Entities>

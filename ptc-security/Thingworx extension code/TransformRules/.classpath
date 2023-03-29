@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_79"/>
+	<classpathentry exported="true" kind="lib" path="twx-lib/custom-rhino-js-5.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="twx-lib/thingworx-javadocs-8.0.0-b11.jar"/>
+	<classpathentry exported="true" kind="lib" path="twx-lib/thingworx-communications-server-8.0.0-b11.jar"/>
+	<classpathentry exported="true" kind="lib" path="twx-lib/jackson-dataformat-smile-2.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="twx-lib/thingworx-ext-sdk-8.0.0-b11.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/TransformRules/twx-lib/thingworx-javadocs-8.0.0-b11.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="twx-lib/jackson-annotations-2.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="twx-lib/joda-time-2.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="twx-lib/slf4j-api-1.7.21.jar"/>
+	<classpathentry exported="true" kind="lib" path="twx-lib/thingworx-communications-client-8.0.0-b11.jar"/>
+	<classpathentry exported="true" kind="lib" path="twx-lib/logback-classic-1.0.13.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/json-utils-0.1.0.jar" sourcepath="C:/Users/Jyothi/AppData/Local/Temp/.org.sf.feeling.decompiler1645077246081/source/json-utils-0.1.0-sources-1645698803899.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/javax.inject-1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/json-simple-1.1.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_101">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-databind-2.9.5.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-2.9.5.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.8.9.jar"/>
+	<classpathentry kind="lib" path="lib/logback-core-1.2.9.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

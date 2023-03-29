@@ -1,0 +1,10 @@
+{
+	"name":"",
+	"description":"",
+	"DataContent":{},
+	"JSONData":{},
+	"DataFormat":"",
+	"CSVData":"",
+	"XMLData":"" ,//XML datatype not string
+
+}

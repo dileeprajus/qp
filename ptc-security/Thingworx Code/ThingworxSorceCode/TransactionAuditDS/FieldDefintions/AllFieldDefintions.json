@@ -1,0 +1,12 @@
+//TransactionAuditDS is the dataShape to store the cdee transactional Audit data
+
+{
+  "sourceId":	"string",
+  "targetId":	"string",
+  "mappingTime":	"datetime",
+  "mccId":	"string",
+  "sourceTime":	"datetime",
+  "targetRespTime":	"datetime",
+  "transactionSeq":	"number",
+  "transactionId":	"string"
+}
